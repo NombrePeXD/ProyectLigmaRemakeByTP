@@ -43,7 +43,7 @@ Variables.UI.Main.Draggable = true
 local function notify(text,cb,b1,b2)
 	game:GetService("StarterGui"):SetCore(
 		"SendNotification",{
-			Title = "backdoor.exe",
+			Title = "Proyect Ligma",
 			Duration = 3,
 			Text = text,
 			Callback = cb,
@@ -135,7 +135,7 @@ local function scanGame()
         Variables.Topbar.Status.Text = "Attached"
         Variables.Topbar.Status.Circle.Status_Color.BackgroundColor3 = Color3.fromRGB(95, 185, 47)
     else
-        notify("Unable to find backdoor!")
+        notify("Unable to find backdoor")
         Variables.Topbar.Status.Text = "Failed"
     end
 
